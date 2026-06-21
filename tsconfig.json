@@ -34,9 +34,7 @@
           ]
         }
       },
-      "include": [
-        "vite.config.ts"
-      ]
+     "include": ["**/*.ts", "**/*.tsx"]
     },
     {
       "compilerOptions": {
@@ -68,9 +66,7 @@
           ]
         }
       },
-      "include": [
-        "vite.config.ts"
-      ]
+    "include": ["**/*.ts", "**/*.tsx"]
     }
   ],
   "compilerOptions": {
@@ -102,8 +98,5 @@
         "./src/*"
       ]
     }
-  },
-  "include": [
-    "vite.config.ts"
-  ]
+ "include": ["**/*.ts", "**/*.tsx"]
 }
