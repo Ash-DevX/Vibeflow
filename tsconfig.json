@@ -35,9 +35,8 @@
         }
       },
       "include": [
-        "src/**/*"
-      ],
-      "exclude": []
+        "vite.config.ts"
+      ]
     },
     {
       "compilerOptions": {
