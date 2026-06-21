@@ -31,10 +31,6 @@
       ]
     }
   },
-  "include": [
-    "src/**/*",
-    "SRC/**/*",
-    "Src/**/*"
-  ],
+  "include": ["src/**/*", "app/**/*", "pages/**/*"],
   "exclude": []
 }
