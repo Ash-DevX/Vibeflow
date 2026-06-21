@@ -24,6 +24,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     /* Path Aliases */
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
@@ -36,10 +37,8 @@
     "Src/**/*"
   ],
   "exclude": [
-    "node_modules",
-    "dist",
-    ".svelte-kit",
-    "build",
-    "public"
+    "src/firebase",
+    "SRC/firebase",
+    "Src/firebase"
   ]
 }
