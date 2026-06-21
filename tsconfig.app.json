@@ -22,4 +22,11 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*", "SRC/**/*", "Src/**/*"]
+    "exclude": [
+    "node_modules",
+    "dist",
+    ".svelte-kit",
+    "build",
+    "public"
+  ]
 }
