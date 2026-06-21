@@ -36,9 +36,5 @@
     "SRC/**/*",
     "Src/**/*"
   ],
-  "exclude": [
-    "src/firebase",
-    "SRC/firebase",
-    "Src/firebase"
-  ]
+  "exclude": []
 }
