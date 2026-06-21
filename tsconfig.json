@@ -2,71 +2,10 @@
   "files": [],
   "references": [
     {
-      "compilerOptions": {
-        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-        "target": "es2023",
-        "lib": [
-          "ES2023",
-          "DOM"
-        ],
-        "module": "esnext",
-        "types": [
-          "vite/client"
-        ],
-        "skipLibCheck": true,
-        /* Bundler mode */
-        "moduleResolution": "bundler",
-        "allowImportingTsExtensions": true,
-        "verbatimModuleSyntax": true,
-        "moduleDetection": "force",
-        "noEmit": true,
-        "jsx": "react-jsx",
-        /* Linting */
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "erasableSyntaxOnly": true,
-        "noFallthroughCasesInSwitch": true,
-        /* Path Aliases */
-        "baseUrl": ".",
-        "paths": {
-          "@/*": [
-            "./src/*"
-          ]
-        }
-      },
-     "include": ["**/*.ts", "**/*.tsx"]
+      "path": "./tsconfig.app.json"
     },
     {
-      "compilerOptions": {
-        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-        "target": "es2023",
-        "lib": [
-          "ES2023"
-        ],
-        "module": "esnext",
-        "types": [
-          "node"
-        ],
-        "skipLibCheck": true,
-        /* Bundler mode */
-        "moduleResolution": "bundler",
-        "allowImportingTsExtensions": true,
-        "verbatimModuleSyntax": true,
-        "moduleDetection": "force",
-        "noEmit": true,
-        /* Linting */
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "erasableSyntaxOnly": true,
-        "noFallthroughCasesInSwitch": true,
-        /* Path Aliases */
-        "paths": {
-          "@/*": [
-            "./src/*"
-          ]
-        }
-      },
-    "include": ["**/*.ts", "**/*.tsx"]
+      "path": "./tsconfig.node.json"
     }
   ],
   "compilerOptions": {
@@ -98,5 +37,8 @@
         "./src/*"
       ]
     }
- "include": ["**/*.ts", "**/*.tsx"]
+  },
+  "include": [
+    "vite.config.ts"
+  ]
 }
