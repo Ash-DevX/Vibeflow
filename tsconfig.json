@@ -34,7 +34,7 @@
           ]
         }
       },
-     "include": ["**/*.ts", "**/*.tsx"]
+   "include": ["src/**/*"]
     },
     {
       "compilerOptions": {
